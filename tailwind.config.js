@@ -10,10 +10,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'desktop-bg': "url('/bg.jpg')",
+      },
+
       colors: {
       "commodore-bg": "#A0A0FF",
       "commodore-fg": "#4040E0"
       },
+      
       keyframes: {
         blink: {
           '0%': {opacity: 0},
